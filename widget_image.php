@@ -132,7 +132,7 @@ class widgetimage extends WP_widget {
         <select class='widefat' id="<?php echo $this->get_field_id('style'); ?>"
                 name="<?php echo $this->get_field_name('style'); ?>" type="text">
                 <?php
-                $datasytle = array('Lily','Sadie','Honey','Layla','Oscar','Marley','Ruby','Ruxy','Bubba','Romeo','Dexter','Sarah','Chico','Milo','Selena','Apollo','Steve','Moses','Jazz','Ming','Lexi','Duke');
+                $datasytle = array('Lily','Sadie','Honey','Layla','Oscar','Marley','Ruby','Roxy','Bubba','Romeo','Dexter','Sarah','Chico','Milo','Selena','Apollo','Steve','Moses','Jazz','Ming','Lexi','Duke','Goliath');
                 	for ($i=0; $i < 22 ; $i++) { 
                 		$value = $datasytle[$i];
                 		$value = strtolower($value);
